@@ -15,6 +15,11 @@
     --purple-clr: #301534;
     --gray-clr: #F8EEFF;
     --pale-purple-clr: #8B6990;
+    /* FONT WEIGHT */
+    --font-weight-700: 700;
+    --font-weight-300: 300;
+    --font-weight-600: 600;
+    --font-weight-400: 400;
 }
 body
 {
@@ -36,7 +41,7 @@ body
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: var(--white-clr);
-    width: 60%;
+    width: 40%;
     padding: 40px;
     border-radius: 16px;
     box-shadow: 0 32px 56px 0 hsla(281, 100%, 23%, 0.1);
@@ -47,7 +52,7 @@ body
 }
 .main-faq h1
 {
-    font-weight: 700;
+    font-weight: var(--font-weight-700);
     font-size: 56px;
     color: var(--purple-clr);
     width: fit-content;
@@ -58,11 +63,11 @@ body
     width: 100%;
     background-color: transparent;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: var(--font-weight-600);
     margin-bottom: 28px;
     padding: 24px 0;
-    border-top: 1px solid #F8EEFF;
-    border-bottom: 1px solid #F8EEFF;
+    border-top: 1px solid var(--gray-clr);
+    border-bottom: 1px solid var(--gray-clr);
 }
 .main-faq .panel
 {
@@ -71,6 +76,6 @@ body
 .main-faq .panel p
 {
     color: var(--pale-purple-clr);
-    font-weight: 400;
+    font-weight: var(--font-weight-400);
     font-size: 16px;
 }
