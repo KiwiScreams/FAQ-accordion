@@ -64,10 +64,13 @@ body
     border-top: 1px solid #F8EEFF;
     border-bottom: 1px solid #F8EEFF;
 }
+.main-faq .panel
+{
+    display: none;
+}
 .main-faq .panel p
 {
     color: var(--pale-purple-clr);
     font-weight: 400;
     font-size: 16px;
-    
 }
