@@ -5,4 +5,69 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
+    border: none;
+    outline: none;
+}
+:root
+{
+    /* COLOR */
+    --white-clr: #fff;
+    --purple-clr: #301534;
+    --gray-clr: #F8EEFF;
+    --pale-purple-clr: #8B6990;
+}
+body
+{
+    width: 100vw;
+    overflow: hidden;
+    height: 100vh;
+    background-color: var(--gray-clr);
+}
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-faq
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--white-clr);
+    width: 60%;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 32px 56px 0 hsla(281, 100%, 23%, 0.1);
+}
+.main-faq .faq-header
+{
+    margin-bottom: 32px;
+}
+.main-faq h1
+{
+    font-weight: 700;
+    font-size: 56px;
+    color: var(--purple-clr);
+    width: fit-content;
+    gap: 24px;
+}
+.main-faq .accordion
+{
+    width: 100%;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 28px;
+    padding: 24px 0;
+    border-top: 1px solid #F8EEFF;
+    border-bottom: 1px solid #F8EEFF;
+}
+.main-faq .panel p
+{
+    color: var(--pale-purple-clr);
+    font-weight: 400;
+    font-size: 16px;
+    
 }
