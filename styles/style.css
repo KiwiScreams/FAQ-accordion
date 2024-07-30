@@ -7,6 +7,18 @@
     text-decoration: none;
     border: none;
     outline: none;
+    transition: 0.3s;
+    font-family: 'sans-reg';
+}
+@font-face
+{
+    font-family: 'sans-bold';
+    src: url(../assets/fonts/static/WorkSans-Bold.ttf);
+}
+@font-face
+{
+    font-family: 'sans-reg';
+    src: url(../assets/fonts/static/WorkSans-Regular.ttf);
 }
 :root
 {
@@ -15,6 +27,7 @@
     --purple-clr: #301534;
     --gray-clr: #F8EEFF;
     --pale-purple-clr: #8B6990;
+    --light-purple-clr: #AD28EB;
     /* FONT WEIGHT */
     --font-weight-700: 700;
     --font-weight-300: 300;
@@ -26,6 +39,9 @@ body
     width: 100vw;
     overflow: hidden;
     height: 100vh;
+    background-image: url(../assets/images/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
     background-color: var(--gray-clr);
 }
 .flex
@@ -45,6 +61,7 @@ body
     padding: 40px;
     border-radius: 16px;
     box-shadow: 0 32px 56px 0 hsla(281, 100%, 23%, 0.1);
+    z-index: 20;
 }
 .main-faq .faq-header
 {
@@ -57,6 +74,7 @@ body
     color: var(--purple-clr);
     width: fit-content;
     gap: 24px;
+    font-family: 'sans-bold';
 }
 .main-faq .accordion
 {
@@ -68,6 +86,10 @@ body
     padding: 24px 0;
     border-top: 1px solid var(--gray-clr);
     border-bottom: 1px solid var(--gray-clr);
+}
+.main-faq .accordion:hover
+{
+    color: var(--light-purple-clr);
 }
 .main-faq .panel
 {
