@@ -82,7 +82,14 @@ body
     background-color: transparent;
     font-size: 18px;
     font-weight: var(--font-weight-600);
-    margin-bottom: 28px;
+}
+.main-faq .accordion:hover
+{
+    color: var(--light-purple-clr);
+}
+.main-faq .faq
+{
+    margin: 0;
     padding: 24px 0;
     border-top: 1px solid var(--gray-clr);
     border-bottom: 1px solid var(--gray-clr);
@@ -100,6 +107,7 @@ body
     color: var(--pale-purple-clr);
     font-weight: var(--font-weight-400);
     font-size: 16px;
+    margin-top: 24px;
 }
 @media screen and (max-width: 1200px)
 {
