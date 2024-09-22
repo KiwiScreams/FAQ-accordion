@@ -22,13 +22,11 @@
 }
 :root
 {
-    /* COLOR */
     --white-clr: #fff;
     --purple-clr: #301534;
     --gray-clr: #F8EEFF;
     --pale-purple-clr: #8B6990;
     --light-purple-clr: #AD28EB;
-    /* FONT WEIGHT */
     --font-weight-700: 700;
     --font-weight-300: 300;
     --font-weight-600: 600;
